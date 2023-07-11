@@ -1,7 +1,11 @@
 import React from "react";
+import redvelt from "../assets/images/redvelvet.jpg";
+import blackpink from "../assets/images/blackpink.jpg";
 
+import twice from "../assets/images/twice.jpg";
 import { motion } from "framer-motion";
-const Section = () => {
+
+const Groove = () => {
   const container = {
     hidden: { opacity: 0 },
     show: {
@@ -41,7 +45,7 @@ const Section = () => {
           <motion.img
             variants={image}
             whileInView="show"
-            src="/redvelvet.jpg"
+            src={redvelt}
             alt=""
           />
           <div className="max-md:hidden text-4xl md:text-7xl text-neutral-800 flex items-center font-extrabold">
@@ -65,7 +69,7 @@ const Section = () => {
           <motion.img
             variants={image}
             className="md:mt-[40px]"
-            src="/blackpink.jpg"
+            src={blackpink}
             alt=""
           />
           <div className="text-4xl md:text-7xl text-neutral-800 flex items-center mb-20 font-extrabold">
@@ -89,7 +93,7 @@ const Section = () => {
           <motion.img
             variants={image}
             className="md:mt-[-100px] opacity-80"
-            src="/twice.jpg"
+            src={twice}
             alt=""
           />
           <div className="max-md:hidden text-4xl md:text-7xl text-neutral-800 flex items-center justify-center font-extrabold">
@@ -116,4 +120,4 @@ const Section = () => {
   );
 };
 
-export default Section;
+export default Groove;

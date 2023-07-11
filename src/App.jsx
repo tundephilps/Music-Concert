@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Section from "./components/Section";
+import Groove from "./components/Groove";
 
 function App() {
   return (
@@ -39,7 +39,7 @@ function App() {
             </svg>
             <Hero />
           </div>
-          <Section />
+          <Groove />
           <hr className="w-full mt-16" />
           {/*  <Service/>*/}
           {/*   <Book/>*/}
