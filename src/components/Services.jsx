@@ -1,6 +1,19 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
+const artists = [
+  "Mamamoo",
+  "Momoland",
+  "NewJeans",
+  "Exo",
+  "StrayKids",
+  "Aespa",
+  "Red Velvet",
+  "Twice",
+  "Itzy",
+  "GirlsGenera",
+];
+
 const Service = () => {
   const [selectedItem, setSelectedItem] = useState(2);
   const [scheduleData, setScheduleData] = useState([]);
@@ -121,7 +134,7 @@ const Service = () => {
         variants={item}
         className="mt-24 lg:text-xl text-base overflow-x-auto"
       >
-        <ul className="flex items-center text-xl md:text-3xl uppercase space-x-9 whitespace-nowrap scrollbar-hide text-neutral-500 ">
+        <ul className="flex items-center justify-center text-xl md:text-3xl uppercase space-x-9 whitespace-nowrap scrollbar-hide text-neutral-500 ">
           {Array.from({ length: 10 }, (_, index) => (
             <li
               key={index}

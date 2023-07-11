@@ -3,6 +3,8 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Groove from "./components/Groove";
+import Service from "./components/Services";
+import Book from "./components/Book";
 
 function App() {
   return (
@@ -41,8 +43,8 @@ function App() {
           </div>
           <Groove />
           <hr className="w-full mt-16" />
-          {/*  <Service/>*/}
-          {/*   <Book/>*/}
+          <Service />
+          <Book />
         </div>
         {/*<Footer/>*/}
       </div>
