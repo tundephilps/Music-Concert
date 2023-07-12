@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Groove from "./components/Groove";
 import Service from "./components/Services";
 import Book from "./components/Book";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -46,7 +47,7 @@ function App() {
           <Service />
           <Book />
         </div>
-        {/*<Footer/>*/}
+        <Footer />
       </div>
     </>
   );

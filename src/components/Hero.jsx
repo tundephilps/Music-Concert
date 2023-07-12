@@ -1,5 +1,6 @@
 import React from "react";
 
+import afrobeats from "../assets/images/Afrobeats.jpg";
 import image4 from "../assets/images/image4.webp";
 import { motion } from "framer-motion";
 
@@ -62,7 +63,7 @@ const Hero = () => {
               viewport={{ once: true }}
               transition={{ duration: 0.8, type: "keyframes" }}
               className="w-full lg:h-[700px] md:h-[500px] h-[300px] object-cover object-top opacity-100"
-              src={image4}
+              src={afrobeats}
               alt=""
             />
             <motion.div

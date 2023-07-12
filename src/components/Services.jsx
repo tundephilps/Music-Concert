@@ -2,20 +2,19 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 
 const artists = [
-  "Mamamoo",
-  "Momoland",
-  "NewJeans",
-  "Exo",
-  "StrayKids",
-  "Aespa",
-  "Red Velvet",
-  "Twice",
-  "Itzy",
-  "GirlsGenera",
+  "Davido",
+  "BurnaBoy",
+  "CasperNyovest",
+  "TiwaSavage",
+  "P-Square",
+  "Dbanj",
+  "Sarkodie",
+
+  "NastyC",
 ];
 
 const Service = () => {
-  const [selectedItem, setSelectedItem] = useState(2);
+  const [selectedItem, setSelectedItem] = useState(1);
   const [scheduleData, setScheduleData] = useState([]);
 
   useEffect(() => {
@@ -59,16 +58,15 @@ const Service = () => {
 
   const renderImages = () => {
     const images = [
-      "/mamamoo.webp",
-      "/momoland.jpg.avif",
-      "/newjeans.jpeg",
-      "/exo.jpg",
-      "/straykid.png",
-      "/aespa.jpg",
-      "/redvelvet.jpg",
-      "/twice.jpg",
-      "/itzy.jpg",
-      "/girlgeneration.jpg",
+      "/davido.jpg",
+      "/burna.jpg",
+      "/CasperNyovest.png",
+      "/tiwa.webp",
+      "/Psquare.jpg",
+      "/Dbanj.jpg",
+      "/Sarkodie.jpg",
+
+      "/NastyC.png",
     ];
 
     return images.map((image, index) => (
