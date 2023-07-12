@@ -45,14 +45,14 @@ const Groove = () => {
           <motion.img
             variants={image}
             whileInView="show"
-            src={redvelt}
+            src="./wizkid.jpg"
             alt=""
           />
           <div className="max-md:hidden text-4xl md:text-7xl text-neutral-800 flex items-center font-extrabold">
             ELEGANT
           </div>
           <motion.div variants={item}>
-            <h1 className="text-4xl mt-7 mb-4 max-sm:text-3xl">RED VELVET</h1>
+            <h1 className="text-4xl mt-7 mb-4 max-sm:text-3xl">WIZ-KID</h1>
             <p className="text-2xl text-neutral-500 max-sm:text-xl">
               SM Entertainment
             </p>
@@ -69,14 +69,14 @@ const Groove = () => {
           <motion.img
             variants={image}
             className="md:mt-[40px]"
-            src={blackpink}
+            src="./BlackSherf.jpeg"
             alt=""
           />
           <div className="text-4xl md:text-7xl text-neutral-800 flex items-center mb-20 font-extrabold">
             EVENTS
           </div>
           <motion.div variants={item}>
-            <h1 className="text-4xl mt-7 mb-4 max-sm:text-3xl">BLACK PINK</h1>
+            <h1 className="text-4xl mt-7 mb-4 max-sm:text-3xl">BLACK SHERiF</h1>
             <p className="text-2xl text-neutral-500 max-sm:text-xl">
               SM Entertainment
             </p>
@@ -93,14 +93,14 @@ const Groove = () => {
           <motion.img
             variants={image}
             className="md:mt-[-100px] opacity-80"
-            src={twice}
+            src="./ShattaWale.jpeg"
             alt=""
           />
           <div className="max-md:hidden text-4xl md:text-7xl text-neutral-800 flex items-center justify-center font-extrabold">
             ELEGANT EVENTS
           </div>
           <motion.div variants={item}>
-            <h1 className=" text-4xl mt-7 mb-4 max-sm:text-3xl">TWICE</h1>
+            <h1 className=" text-4xl mt-7 mb-4 max-sm:text-3xl">SHATTA-WALE</h1>
             <p className="text-2xl text-neutral-500 max-sm:text-xl">
               SM Entertainment
             </p>
