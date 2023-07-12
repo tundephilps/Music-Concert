@@ -130,9 +130,9 @@ const Service = () => {
       </motion.div>
       <motion.div
         variants={item}
-        className="mt-24 lg:text-xl text-base overflow-x-auto"
+        className="mt-24 lg:text-2xl text-base overflow-x-scroll"
       >
-        <ul className="flex items-center justify-center text-xl md:text-3xl uppercase space-x-9 whitespace-nowrap scrollbar-hide text-neutral-500 ">
+        <ul className="flex items-center justify-center text-base md:text-2xl uppercase space-x-7 whitespace-nowrap scrollbar-hide text-neutral-500 ">
           {Array.from({ length: 10 }, (_, index) => (
             <li
               key={index}
